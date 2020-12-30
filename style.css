@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0; 
+}
+.nav-bar{
+   
+    
+    padding: 20px;
+    font-family: sans-serif;
+}
+.navi-bar img{
+    height: 65px;
+    float: left;
+    margin-left: 20px;
+}
+.menu-right{
+    text-align: right;
+}
+
+
+ul li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+    
+}
+span{
+    margin: 0 20px;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+
+}
+.image { 
+    position: relative; 
+    width: 100%; /* for IE 6 */
+    height: 30px;
+ }
+ 
+ h2 { 
+    position: absolute; 
+    top: 200px; 
+    right: 0; 
+    width: 100%; 
+ }
+@media only screen and (max-width: 500px){
+    span{
+        display: block;
+    }
+    ul li{
+        display: block;
+    }
+    ul{
+        display:none;
+    }
+}
